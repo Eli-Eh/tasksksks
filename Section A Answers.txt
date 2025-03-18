@@ -1,0 +1,32 @@
+1,3,5, a part of 11 (MAR), not sure about 2
+
+1 - heuristics - 
+
+2 - A
+
+3 - Turing machine - ? smth about numbers on tape
+
+4 - Invented boolean algebra, which flips true and false values to get a desired mathematical operation. This proved immensley helpful in the development and theoretics of computers, as they use bits, digital values that can be either 0 or 1.
+
+5 - ?
+
+6 - advantage 1 - Facial recognition could be used in criminal settings, as tracking can help identify the identity and location of a person the police may be looking for.
+-advantage 2 - Facial recognition can be used as an extra biometric security measure to better secure data and other securable commodities.
+-disadvantage 1 - Massive privacy concerns with widespread use could be adopted.  Not only could facial recognition data be misused by those who own it, but data leaks could reveal highly confidential information.
+-disadvantage 2 - Facial recognition can sometimes fail, and misread a face. This can cause issues if that recognition is tied to something important.
+
+7 - In a white box system, all of the components are clearly defined. Testing is done by viewing how the individual components of a system interact with inputs to create an output. In a black box system, only the inputs and outputs are defined or parseable. In a black box system, testing is done by recording how the outputs change in relation to the inputs.
+
+8 - ?
+
+9 - The modulo operator returns the remainder of two numbers being divided. This is useful in the development of a test for divisibility as if a number is divisible by another, the remainder of the two numbers being divided is 0.
+
+10 - GPUs are made to render graphics, which involves a lot of repetetive mathematical tasks. while theCPU performs mathematical tasks faster on an individual level, the GPU can peform more at the same time, which overall leads to more efficient mining.
+
+11 - a - American Standard Code for Information Interchange
+b - Basic Input and Output System
+c - MAR
+d - Universal Serial Bus
+e - Wired Local Access Network
+
+12 - The half adder is used to add 2  binary inputs together. The half adder is also used inside of full adders which add 2 inputs with a carry.
