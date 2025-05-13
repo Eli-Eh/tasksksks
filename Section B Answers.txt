@@ -3,7 +3,7 @@ a - Virtual Private Network
 
 b - Advantage 1 - Allows access to data that is behind a region lock
 Advantage 2 - Defends privacy by sending all packets through a different ip, making the recipient of the packets not know your ip.
-Disadvantage 1 - Some websites or apps ban th use of a VPN, restricting access to themselves until you turn it off.
+Disadvantage 1 - Some websites or apps ban the use of a VPN, restricting access to themselves until you turn it off.
 Disadvantage 2 - Slow down connection speeds, as the packets have to travel farther.
 
 also b?? - i -TCP - Responsible for organising data so it can be transmitted between a server and client.
@@ -32,48 +32,50 @@ Local variables allow you to re-use variable names across different functions, r
 c - 
 pass 1-
 5⋅32 m 5⋅50 m 5⋅39 m 6⋅50 m 6⋅28 m 6⋅14 m 
-    ^           ^          			        5.32 is larger than 5.50, so no changes are made
+ ^       ^          			        5.32 is larger than 5.50, so no changes are made
 
 5⋅32 m 5⋅39 m 5⋅50 m 6⋅50 m 6⋅28 m 6⋅14 m 
-                 ^          ^ 			        5.39 is smaller than 5.50, so the two are swapped
+       ^       ^ 			            5.39 is smaller than 5.50, so the two are swapped
 
 5⋅32 m 5⋅39 m 5⋅50 m 6⋅50 m 6⋅28 m 6⋅14 m 
-                            ^ 	     ^		        6.50 is larger than 5.50, so no changes are made
+              ^ 	 ^		            6.50 is larger than 5.50, so no changes are made
 
 5⋅32 m 5⋅39 m 5⋅50 m 6⋅28 m 6⋅50 m 6⋅14 m 
-                             	     ^	^	        6.50 is larger than 6.28, so the two are swapped
+                      ^	   ^	        6.50 is larger than 6.28, so the two are swapped
 
 5⋅32 m 5⋅39 m 5⋅50 m 6⋅28 m 6⋅14 m 6⋅50 m 
-                             	     	^            ^	        6.50 is larger than 6.14, so the two are swapped
+                         	^     ^	    6.50 is larger than 6.14, so the two are swapped
 
 pass 2-
 5⋅32 m 5⋅39 m 5⋅50 m 6⋅28 m 6⋅14 m 6⋅50 m 
-    ^         ^               	     	            	        no changes made
+ ^      ^                     	        no changes made
 
 5⋅32 m 5⋅39 m 5⋅50 m 6⋅28 m 6⋅14 m 6⋅50 m 
-              ^             ^  	     	            	        no changes made
+        ^      ^  	     	            no changes made
 
 5⋅32 m 5⋅39 m 5⋅50 m 6⋅28 m 6⋅14 m 6⋅50 m 
-                            ^  	     ^	            	        no changes made
+               ^  	 ^	                no changes made
 
 5⋅32 m 5⋅39 m 5⋅50 m 6⋅14 m 6⋅28 m 6⋅50 m 
-                              	     ^	 ^           	        6.28 is larger than 6.14, so the two are swapped
+                    ^	    ^           6.28 is larger than 6.14, so the two are swapped
 
 5⋅32 m 5⋅39 m 5⋅50 m 6⋅14 m 6⋅28 m 6⋅50 m 
-                              	     	 ^           ^	        no changes made
+                     	   ^      ^	    no changes made
 list is sorted after two passes
+(pointers could be broken on your side, sorry in advance)
+
 
 15-
 a - Never trust a computer you cannot throw out the window
 
-b - If 6v or more is the input voltage, then the output is 0v. If the input voltage is less than 6v, the output is 6v. If you count <6v as 0 and >6v as 1, then the signal is inverted, where 0 becomes 1 and 1 becomes 0, otherwise known as a NOT gate.
+b - If 6v or more is the input voltage, then the output is 0v. If the input voltage is less than 6v, the output is 6v. If you count less than 6v as 0 and more than 6v as 1, then the output signal is inverted, where 0 becomes 1 and 1 becomes 0, otherwise known as a NOT gate.
 
 c - 
-Mary is Séan's sister	Séan is Maura's brother	Mary is Maura's sister
-NO			NO			YES
-YES			NO			NO
-NO			YES			NO
-YES			YES			NO
+Mary is Séan's sister    	Séan is Maura's brother	    Mary is Maura's sister
+NO		            	    NO			                YES
+YES		                	NO		                   	NO
+NO		                	YES		                	NO
+YES			                YES		                	NO
 
 
 d - Fiona -  There is no causal relashionship between the absence of a school night and and the outcome of whether you stay up late; you can sleep early on any day.
